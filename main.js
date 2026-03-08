@@ -214,6 +214,8 @@ async function onSubmit(event) {
     if (!response.ok) {
       throw new Error(`Webhook responded with ${response.status}`);
     }
+    fbq('track', 'Lead');
+
 
     // actualizado mensaje
     setStatus(
