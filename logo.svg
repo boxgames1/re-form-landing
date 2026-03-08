@@ -1,0 +1,45 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 200 40"
+  width="200"
+  height="40"
+  role="img"
+  aria-label="tasamostupropiedad.es"
+>
+  <!-- Casa compacta, centrada verticalmente -->
+  <g transform="translate(2, 4)">
+    <!-- Tejado -->
+    <polygon points="16,0 0,12 32,12" fill="#0A2540" />
+    <!-- Cuerpo -->
+    <rect x="4" y="12" width="24" height="18" fill="#0A2540" rx="1" />
+    <!-- Puerta -->
+    <rect x="12" y="20" width="8" height="10" fill="#FF6B35" rx="1" />
+  </g>
+
+  <!-- "tasamos" — línea 1 -->
+  <text
+    x="42"
+    y="17"
+    font-family="Inter, -apple-system, sans-serif"
+    font-weight="700"
+    font-size="15"
+    fill="#0A2540"
+    letter-spacing="-0.2"
+  >
+    tasamos
+  </text>
+
+  <!-- "tupropiedad.es" — línea 2 -->
+  <text
+    x="42"
+    y="33"
+    font-family="Inter, -apple-system, sans-serif"
+    font-weight="700"
+    font-size="15"
+    fill="#FF6B35"
+    letter-spacing="-0.2"
+  >
+    tupropiedad
+    <tspan fill="#697386" font-weight="400" font-size="13">.es</tspan>
+  </text>
+</svg>
