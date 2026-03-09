@@ -214,7 +214,10 @@ async function onSubmit(event) {
     if (!response.ok) {
       throw new Error(`Webhook responded with ${response.status}`);
     }
-    fbq('track', 'Lead');
+    fbq("track", "Lead");
+    if (typeof gtag === "function") {
+      gtag("event", "generate_lead");
+    }
 
 
     // actualizado mensaje
